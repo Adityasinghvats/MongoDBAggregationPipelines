@@ -1,0 +1,13 @@
+## To practice using following commands simply create a `database` with `<name of your choice>` in MongoDB and add collections named `authors` , `books`, `users`.
+- Using MongoDB connection string , connect your database from VS Code using `MongoDB extension`.
+- Now you will find the `database` and `collections` which you named in VS Code side panel with MongoDB icon.
+- `Right Click` on each collection name and choose `insert document`.
+- Change `db.getCollection('authors').insertOne` to `db.getCollection('authors').insertMany`.
+- Get all data from [source](https://gist.github.com/hiteshchoudhary/a80d86b50a5d9c591198a23d79e1e467).
+- To get data press `Raw` and copy the contents.
+- Insert `data.json` into `users` collection.
+- Copy and paste the json object within the function and then run using 🔺 on top.
+- All the documents will now be added to your DB.
+- Now within your `database` open `users` , now go to `Aggregation` and select `Text`.
+- Start writing your commands till exercise 5 one by one according to the question.
+- Exercise 6 or lookup is to be used in `books` -> `Aggregation` -> `Text` .
