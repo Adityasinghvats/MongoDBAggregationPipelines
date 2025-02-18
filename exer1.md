@@ -1,7 +1,7 @@
 ## MongoDB Aggregation Pipelines
 
 - Count no. of active users
- ```json
+ ```javascript
 [
   {
     $match: {
@@ -14,7 +14,7 @@
 ]
 ```
 - What is a average age of all users
-```json
+```javascript
 [
   {
     $group: {
@@ -27,7 +27,8 @@
   }
 ]
 ```
-```json
+- What is a average age of both genders
+```javascript
 [
   {
     $group: {
@@ -41,7 +42,7 @@
 ]
 ```
 - List the top 5 common fruits among the users
-```json
+```javascript
 [//stage 1
   {
     $group: {
